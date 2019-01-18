@@ -4,6 +4,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+li {
+  color: #dd004d;
+}
+
 h1 {
   color: #000;
   font-size: 30px;
@@ -47,7 +51,7 @@ p {
 
 .navigation a:hover {
   color: #fff;
-  background-color: #bc95a9;
+  background-color:  #dd004d;
 }
 
 .navigation a:active {
@@ -64,10 +68,15 @@ a:visited {
 }
 
 a:hover {
-  color: #bc95a9;
+  color:  #dd004d;
 }
 
 div {
+}
+
+i{
+  font-size: 30px;
+  margin-left: 15px;
 }
 
 
@@ -103,6 +112,7 @@ div {
 .imageContainer {
   max-width: 90%;
   max-height: 300px;
+  align:center;
   -webkit-filter: grayscale(1%);
   filter: grayscale(1%);
 }
@@ -123,15 +133,15 @@ div {
 }
 
 .box {
-  border: 20px solid lightgrey;
-  padding: 10px;
-  margin: 10px 0;
+  border: 15px solid lightgrey;
+  padding: 20px;
+  margin: 20px 0;
 
 }
 
 .box2 {
-  border: 20px dashed #dd004d;
-  padding: 10px;
-  margin: 10px 0;
+  border: 15px dashed #dd004d;
+  padding: 20px;
+  margin: 20px 0;
 
 }
