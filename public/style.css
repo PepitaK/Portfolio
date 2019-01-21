@@ -103,6 +103,7 @@ i{
 .container {
   position: relative;
   width: 90%;
+  max-width: 1000px;
   min-width: 390px;
   border-radius: 50%;
 }
@@ -120,6 +121,7 @@ i{
 .image {
   max-width: 100%;
   max-height: 300px;
+  max-width: 500px;
   -webkit-filter: grayscale(1%);
   filter: grayscale(1%);
   border: 10px solid white;
@@ -136,6 +138,7 @@ i{
   border: 15px solid lightgrey;
   padding: 20px;
   margin: 20px 0;
+  max-width: 1000px;
 
 }
 
@@ -143,5 +146,6 @@ i{
   border: 15px dashed #dd004d;
   padding: 20px;
   margin: 20px 0;
+  max-width: 1000px;
 
 }
