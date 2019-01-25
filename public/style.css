@@ -93,12 +93,9 @@ i {
   line-height: 1.2;
   margin-left: 0px;
   right: 0px;
-  -webkit-box-shadow: 0px 1px 20px 2px rgba(0,0,0,0.18);
--moz-box-shadow: 0px 1px 20px 2px rgba(0,0,0,0.18);
-box-shadow: 0px 1px 20px 2px rgba(0,0,0,0.18);
-
-
-
+  -webkit-box-shadow: 0px 1px 20px 2px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0px 1px 20px 2px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 1px 20px 2px rgba(0, 0, 0, 0.18);
 }
 
 .imageFront {
@@ -135,10 +132,9 @@ box-shadow: 0px 1px 20px 2px rgba(0,0,0,0.18);
   margin: auto;
   text-align: justify;
   margin-bottom: 40px;
-  -webkit-box-shadow: 0px 1px 20px 2px rgba(0,0,0,0.46);
-  -moz-box-shadow: 0px 1px 20px 2px rgba(0,0,0,0.46);
-  box-shadow: 0px 1px 20px 2px rgba(0,0,0,0.46);
-
+  -webkit-box-shadow: 0px 1px 20px 2px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 1px 20px 2px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px 1px 20px 2px rgba(0, 0, 0, 0.46);
 }
 
 .box>h2 {
@@ -151,10 +147,9 @@ box-shadow: 0px 1px 20px 2px rgba(0,0,0,0.18);
   margin: auto;
   text-align: justify;
   margin-bottom: 40px;
-  -webkit-box-shadow: 0px 1px 20px 2px rgba(0,0,0,0.46);
-  -moz-box-shadow: 0px 1px 20px 2px rgba(0,0,0,0.46);
-  box-shadow: 0px 1px 20px 2px rgba(0,0,0,0.46);
-
+  -webkit-box-shadow: 0px 1px 20px 2px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 1px 20px 2px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px 1px 20px 2px rgba(0, 0, 0, 0.46);
 }
 
 .box2>h2 {
@@ -180,6 +175,6 @@ box-shadow: 0px 1px 20px 2px rgba(0,0,0,0.18);
 
 @media only screen and (min-width: 1000px) {
   .container {
-    margin:auto;
+    margin: auto;
   }
 }
