@@ -1,1 +1,74 @@
+<div>
+  <br><br><br>
+  <center><img src="kuvat/nuppu.png" alt="explore" class="imageFront"></center>
+
+
+  <h1> Pepita Kautto </h1>
+  <p>
+    IT-Business student from Laurea UAS with a visual background.
+    <br>
+    <center>
+       <a href="http://www.linkedin.com/in/pepita-kautto"><i class="fab fa-linkedin"></i></a>
+        <a href="http://www.github.com/pepitak"> <i class="fab fa-github"></i></a>
+      <a href="https://codepen.io/PepitaK/"> <i class="fab fa-codepen"></i></a>
+
+</div>
 <br><br>
+<div class="box2">
+  <h2> In a nutshell </h2>
+
+  <div class="grid-container">
+    <div class="grid-item"> <i class="fas fa-briefcase"></i> </div>
+    <div class="grid-item">Information Technology Trainee<br> Laurea University of Applied Sciences</div>
+    <div class="grid-item"> <i class="fas fa-briefcase"></i> </div>
+    <div class="grid-item">Technical Customer Service<br> Elisa / Finnair</div>
+    <div class="grid-item"> <i class="fas fa-graduation-cap"></i> </div>
+    <div class="grid-item">Bachelor of Business IT (2019)<br> Laurea University of Applied Sciences</div>
+    <div class="grid-item"> <i class="fas fa-graduation-cap"></i> </div>
+    <div class="grid-item">Audiovisual Communication, Photography (2015)<br> Stadin Ammattiopisto</div>
+  </div>
+  <br>
+  <canvas id="myChart" width="40%"></canvas>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script>
+  var ctx = document.getElementById("myChart");
+  var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["HTML/CSS", "JavaScript", "PHP/SQL", "Communication", "Visual Skills", "Team Player"],
+      datasets: [{
+        label: '',
+        data: [9, 8, 8, 9, 10, 9],
+        backgroundColor: [
+          '#dd004d',
+          'grey',
+          '#fc3c7f',
+          '#890432',
+          'lightgrey',
+          'pink'
+        ],
+        borderColor: [
+          'white'
+        ],
+        borderWidth: 2
+      }]
+    },
+    options: {
+      legend: {
+        display: false,
+      },
+      scales: {
+        yAxes: [{
+          display: false,
+          ticks: {
+            beginAtZero: true,
+            display: false
+          }
+        }]
+      }
+    }
+  });
+</script>
