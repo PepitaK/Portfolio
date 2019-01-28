@@ -99,9 +99,9 @@ i {
 }
 
 .imageFront {
-  width: 70%;
+  width: 75%;
   min-width: 80px;
-  max-width: 150px;
+  max-width: 180px;
 }
 
 .imageContainer {
