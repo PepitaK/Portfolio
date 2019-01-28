@@ -57,8 +57,8 @@ p {
 }
 
 .navigation a:hover {
-  color: #fff;
-  background-color: #dd004d;
+  color: pink;
+  transition: .5s;
 }
 
 .navigation a:active {
@@ -75,6 +75,7 @@ a:visited {
 
 a:hover {
   color: #dd004d;
+  transition: .5s;
 }
 
 i {
