@@ -3,7 +3,7 @@
     "main": "server.js",
     "dependencies": {
         "chart.js": "^2.7.3",
-        "ejs": ">=2.5.5"
+        "ejs": ">=2.5.5",
         "express": "^4.16.4",
         "heroku": "^7.18.9"
     }
